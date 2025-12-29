@@ -5,9 +5,11 @@
 </script>
 
 <template>
-  <div class="h-max bg-white shadow-lg px-10 py-8 rounded-xl">
+  <div class="md:h-max h-2/3 bg-white shadow-lg px-10 py-8 rounded-xl">
     <h1 class="text-2xl mb-5 font-bold font-sans">Criar uma conta</h1>
-    <form class="h-max w-124 grid grid-cols-2 gap-4 font-semibold">
+    <form
+      class="md:h-max h-10/12 md:w-124 w-full grid md:grid-cols-2 overflow-y-scroll gap-4 font-semibold"
+    >
       <div class="flex flex-col gap-1.5">
         <label for="first_name">Primeiro Nome</label>
         <UiInput type="text" name="first_name" />
