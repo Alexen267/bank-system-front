@@ -6,7 +6,12 @@
 
 <template>
   <div class="md:h-max h-2/3 bg-white shadow-lg px-10 py-8 rounded-xl">
-    <h1 class="text-2xl mb-5 font-bold font-sans">Criar uma conta</h1>
+    <h1
+      class="text-2xl mb-5 flex items-center font-bold font-sans text-blue-900"
+    >
+      <ILogoBai class="h-5 mr-2" :filled="true" :font-controlled="false" />
+      <span>Criar uma conta</span>
+    </h1>
     <form
       class="md:h-max h-10/12 md:w-124 w-full grid md:grid-cols-2 overflow-y-scroll gap-4 font-semibold"
     >
@@ -53,7 +58,7 @@
     </form>
     <p class="font-semibold text-center">
       Já possui uma conta?
-      <NuxtLink class="text-primary cursor-pointer" to="/auth/login">
+      <NuxtLink class="text-blue-900 cursor-pointer" to="/auth/login">
         Iniciar sessão
       </NuxtLink>
     </p>

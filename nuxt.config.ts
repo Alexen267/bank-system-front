@@ -12,5 +12,5 @@ export default defineNuxtConfig({
     autoImportPath: '@/assets/img/',
     componentPrefix: 'i',
   },
-  modules: ['nuxt-svgo', '@nuxt/icon'],
+  modules: ['nuxt-svgo', '@nuxt/icon', 'nuxt-charts'],
 });

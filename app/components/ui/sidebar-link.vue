@@ -8,9 +8,7 @@
       :to="to"
       class="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-slate-100 transition"
     >
-      <span class="text-lg text-blue-900">
-        <Icon :name="icon" />
-      </span>
+      <Icon :name="icon" class="text-lg text-blue-900" />
       <span class="font-semibold">{{ label }}</span>
     </NuxtLink>
   </li>
